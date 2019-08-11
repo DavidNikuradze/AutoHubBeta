@@ -1,0 +1,30 @@
+﻿@model testshop.ViewModels.CarsListViewModel
+
+
+<p2>All Cars</p2>
+<h3>@Model.CarCategory</h3>
+
+<div class="row mt-5 mb-2">
+
+    @{
+        foreach (var Car in Model.AllCars)
+        {
+
+
+            <div  class="col-lg-3">
+                <img class="img-thumbnail" src="@Car.img" alt="@Car.name" />
+                <p>@Car.shortdescription</p>
+                <h2>Model : @Car.name</h2>
+                <p>Prise : @Car.price.ToString("c")</p>
+                <p><a class="btn btn-warning" href="#">დეტალურად</a></p>
+
+            </div>
+
+
+            }
+        }
+</div>
+
+
+
+
