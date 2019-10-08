@@ -10,6 +10,8 @@ namespace testshop.data
 {
     public class DBObjects
     {
+      
+
         public static void Initial(AppDBContent content)
         {
            

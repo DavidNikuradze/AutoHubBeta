@@ -17,5 +17,6 @@ namespace testshop.data
 
         public DbSet<Car> cars { get; set; }
         public DbSet<Category> categories { get; set; }
+        public DbSet<ShopCartItem> shopCartItems { get; set; }
     }
 }

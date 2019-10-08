@@ -41,7 +41,7 @@ namespace testshop.Mocks
                       new Car
                     {
                         name ="Mitsubishi EVO X",
-                        img ="https://cdn1.evo.co.uk/sites/evo/files/styles/gallery_adv/public/images/dir_674/car_photo_337048.jpg?itok=QXLpVvz0",
+                        img ="https://www.google.com/search?q=mitsubishi+lancer+evo&sxsrf=ACYBGNRalsfdnOoS9NzuNWzEoRnaJKp6XA:1570551315232&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjwuPvJh43lAhUyxaYKHayYC4cQ_AUIEigB&biw=1536&bih=722#imgrc=lZ82hVqLORDBgM:",
                         isfavorite =true,
                         longdescription ="Thish is The oil Car",
                         shortdescription ="Lancer Evolution",
@@ -71,6 +71,7 @@ namespace testshop.Mocks
                         avalable =true,
                         Category = carsCategory.Allcategories.Last()
                     },
+
                                new Car
                     {
                         name ="Mitsubishi EVO X",
