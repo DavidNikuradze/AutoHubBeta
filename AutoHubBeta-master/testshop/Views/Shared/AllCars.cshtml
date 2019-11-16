@@ -1,0 +1,9 @@
+﻿@model Car
+<!--Carts mainList -->
+<div class="col-lg-3">
+    <img class="img-thumbnail" src="@Model.img" alt="@Model.name" />
+    <p>@Model.shortdescription</p>
+    <h2>Model : @Model.name</h2>
+    <p>Prise : @Model.price.ToString("c")</p>
+    <p><a class="btn btn-warning" href="__layout.cshtml">დეტალურად</a></p>
+</div>

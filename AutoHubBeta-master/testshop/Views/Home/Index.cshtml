@@ -1,0 +1,12 @@
+﻿<!--სათაური ავტომობილები-->
+@model HomeViewModel
+<p2>ავტომობილები</p2>
+
+<!--დამატებული მანქნების ჩვენება მეინზე -->
+<div class="row mt-5 mb-2">
+    @{foreach (Car car in Model.FavCars)
+      {
+            @Html.Partial("AllCars", car)
+      }
+    }
+</div>

@@ -1,0 +1,6 @@
+//sql baza conection
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=TestShop;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
